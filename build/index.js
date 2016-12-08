@@ -1,0 +1,11 @@
+"use strict";
+var Shape_1 = require('./Shape');
+exports.Shape = Shape_1.Shape;
+exports.ShapeSide = Shape_1.ShapeSide;
+exports.ShapeCorner = Shape_1.ShapeCorner;
+var ShapeIndex_1 = require('./ShapeIndex');
+exports.ShapeIndex = ShapeIndex_1.ShapeIndex;
+var ShapeUtils_1 = require('./ShapeUtils');
+exports.ShapeUtils = ShapeUtils_1.ShapeUtils;
+var DebugRenderer_1 = require('./DebugRenderer');
+exports.DebugRenderer = DebugRenderer_1.DebugRenderer;

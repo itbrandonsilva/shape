@@ -1,0 +1,23 @@
+{
+  "name": "shape",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc && cd demo && npm install && webpack",
+    "test": "./node_modules/mocha/bin/mocha --slow 1",
+    "docs": "typedoc --out ./docs .",
+    "all": "npm install && npm run build && npm run test && npm run docs && touch ./docs/.nojekyll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vector2": "github:itbrandonsilva/vector2"
+  },
+  "main": "build/index.js",
+  "typings": "build/index",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typedoc-default-themes": "0.4.0"
+  }
+}
