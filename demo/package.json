@@ -1,6 +1,6 @@
 {
   "name": "shape-demo",
-  "dependencies": {
+  "devDependencies": {
     "ts-loader": "^1.3.0",
     "typescript": "^2.1.4"
   }
